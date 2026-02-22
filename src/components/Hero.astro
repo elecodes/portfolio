@@ -1,0 +1,40 @@
+---
+import { ArrowRight, ChevronDown } from 'lucide-react';
+---
+
+<section class="min-h-screen flex items-center justify-center px-4 pt-20">
+  <div class="max-w-6xl mx-auto text-center">
+    <div class="inline-block mb-6 animate-fade-in-up" style="animation-delay: 0.2s;">
+      <span class="px-4 py-2 bg-indigo-500/20 border border-indigo-500/30 rounded-full text-cyan-400 text-sm font-medium backdrop-blur-sm">
+        Available for opportunities
+      </span>
+    </div>
+
+    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-in-up" style="animation-delay: 0.4s;">
+      Software Developer &
+      <br />
+      <span class="gradient-text">AI Integrator</span>
+    </h1>
+
+    <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style="animation-delay: 0.6s;">
+      Building full-stack, AI-powered web applications with JavaScript/TypeScript, Node.js, and React. Designing systems that are technically robust, scalable, and user-centered.
+    </p>
+
+    <div class="flex justify-center gap-4 flex-wrap animate-fade-in-up" style="animation-delay: 0.8s;">
+      <a href="#projects" 
+        class="group px-8 py-4 rounded-xl font-semibold text-white flex items-center gap-2 transition-all duration-300 hover:-translate-y-1"
+        style="background: linear-gradient(135deg, #646cff 0%, #7C3AED 100%); box-shadow: 0 10px 30px -10px rgba(100, 108, 255, 0.5);">
+        View Projects
+        <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+      </a>
+      <a href="#contact" 
+        class="px-8 py-4 border-2 border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 rounded-xl font-semibold backdrop-blur-sm transition-all duration-300">
+        Get in Touch
+      </a>
+    </div>
+
+    <a href="#about" class="inline-block mt-16 text-cyan-400 animate-bounce">
+      <ChevronDown size={32} />
+    </a>
+  </div>
+</section>

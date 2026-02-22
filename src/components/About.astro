@@ -1,0 +1,54 @@
+---
+import { Code2, Users, MessageSquare, Brain } from 'lucide-react';
+---
+
+<section id="about" class="py-24 px-4 bg-slate-900/30">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">About Me</h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-cyan-500 mx-auto rounded-full"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="card-hover bg-slate-800/50 p-8 rounded-2xl border border-indigo-500/30 backdrop-blur-sm" style="box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-3 bg-indigo-500/20 rounded-xl">
+<Code2 size={32} className="mb-4" color="#646cff" />          </div>
+          <h3 class="text-2xl font-bold gradient-text">Technical Expertise</h3>
+        </div>
+        <p class="text-gray-300 mb-4 leading-relaxed">
+          Master's in AI Development from BIG school, specializing in LLM orchestration with LangChain, Genkit, and OpenAI. Building production-ready applications with Clean Architecture, SOLID principles, and modern DevOps practices.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          Self-taught through intensive courses in JavaScript, TypeScript, and Full Stack Development. Continuous learner focused on emerging AI technologies and scalable system design.
+        </p>
+      </div>
+      
+      <div class="card-hover bg-slate-800/50 p-8 rounded-2xl border border-cyan-500/30 backdrop-blur-sm" style="box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-3 bg-cyan-500/20 rounded-xl">
+            <Users size={28} className="text-cyan-400" />
+          </div>
+          <h3 class="text-2xl font-bold text-cyan-400">User-Centered Design</h3>
+        </div>
+        <p class="text-gray-300 mb-6 leading-relaxed">
+          My background in education and Montessori-based environments shaped how I approach users, communication, and responsibility—especially when building tools that people rely on daily.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-indigo-900/30 px-4 py-2 rounded-lg border border-indigo-500/20">
+            <Users size={18} className="text-indigo-400" />
+            <span class="text-gray-300 text-sm">Team Collaboration</span>
+          </div>
+          <div class="flex items-center gap-2 bg-blue-900/30 px-4 py-2 rounded-lg border border-blue-500/20">
+            <MessageSquare size={18} className="text-blue-400" />
+            <span class="text-gray-300 text-sm">Clear Communication</span>
+          </div>
+          <div class="flex items-center gap-2 bg-cyan-900/30 px-4 py-2 rounded-lg border border-cyan-500/20">
+            <Brain size={18} className="text-cyan-400" />
+            <span class="text-gray-300 text-sm">Real-World Impact</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,66 @@
+---
+import { Sparkles } from 'lucide-react';
+---
+
+<nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500 bg-transparent">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      <div class="text-2xl font-bold gradient-text flex items-center gap-2">
+        <Sparkles className="text-cyan-400" size={24} />
+        elecodes.dev
+      </div>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-1">
+        <a href="#about" class="text-gray-300 hover:text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">About</a>
+        <a href="#projects" class="text-gray-300 hover:text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Projects</a>
+        <a href="#skills" class="text-gray-300 hover:text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Skills</a>
+        <a href="#contact" class="text-gray-300 hover:text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Contact</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-button" class="md:hidden text-gray-300 p-2 rounded-lg hover:bg-white/10 transition">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden pb-4 space-y-2 hidden">
+      <a href="#about" class="block py-3 px-4 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition">About</a>
+      <a href="#projects" class="block py-3 px-4 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition">Projects</a>
+      <a href="#skills" class="block py-3 px-4 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition">Skills</a>
+      <a href="#contact" class="block py-3 px-4 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg transition">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Navbar scroll effect
+  window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 20) {
+      navbar?.classList.add('bg-slate-900/95', 'backdrop-blur-xl', 'border-b', 'border-indigo-500/20');
+      navbar?.classList.remove('bg-transparent');
+    } else {
+      navbar?.classList.remove('bg-slate-900/95', 'backdrop-blur-xl', 'border-b', 'border-indigo-500/20');
+      navbar?.classList.add('bg-transparent');
+    }
+  });
+
+  // Mobile menu toggle
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  mobileMenuButton?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+
+  // Close mobile menu when clicking a link
+  mobileMenu?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu?.classList.add('hidden');
+    });
+  });
+</script>

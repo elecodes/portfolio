@@ -1,0 +1,220 @@
+---
+import { Code2, Brain, MessageSquare, ExternalLink, Github, ArrowRight } from 'lucide-react';
+---
+
+<section id="projects" class="py-24 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Featured Projects</h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto rounded-full"></div>
+    </div>
+    
+    <!-- TenderCheck AI -->
+    <div class="card-hover p-8 md:p-12 rounded-2xl border border-blue-500/30 mb-8 backdrop-blur-sm bg-gradient-to-br from-blue-900/10 to-indigo-900/10 shadow-2xl">
+      <div class="flex items-center gap-4 mb-6">
+        <div class="p-4 bg-blue-500/20 rounded-xl">
+          <Code2 className="text-blue-400" size={36} />
+        </div>
+        <div>
+          <h3 class="text-3xl md:text-4xl font-bold text-white">TenderCheck AI</h3>
+          <p class="text-cyan-400 font-medium">Automated Tender Validation</p>
+        </div>
+      </div>
+
+      <!-- Project Screenshot -->
+      <div class="mb-8 rounded-xl overflow-hidden border border-blue-500/30">
+        <a href="https://tendercheck-frontend.onrender.com" target="_blank" rel="noopener noreferrer" class="block group">
+          <div class="relative overflow-hidden">
+            <img 
+              src="/images/00-landing-page-light.png"
+              alt="TenderCheck AI Dashboard"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <span class="text-white font-semibold text-lg flex items-center gap-2">
+                View Live Demo <ExternalLink size={18} />
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+        Full-stack AI application for automated validation of public tender documents using LLM reasoning. Production-ready system with enterprise-grade security and Clean Architecture.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-slate-900/50 p-6 rounded-lg border border-blue-500/30">
+          <h4 class="text-lg font-semibold text-blue-400 mb-4">Key Features</h4>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>• PDF analysis with Gemini 2.5 Flash</li>
+            <li>• Dual AI persona (Legal Auditor + Evaluator)</li>
+            <li>• LangSmith observability & prompt versioning</li>
+            <li>• Dynamic industry validation</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-900/50 p-6 rounded-lg border border-cyan-500/30">
+          <h4 class="text-lg font-semibold text-cyan-400 mb-4">Architecture</h4>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>• Clean Architecture + Modular Monolith</li>
+            <li>• Cloud: Render + Turso (Edge SQLite)</li>
+            <li>• 100% test coverage (critical paths)</li>
+            <li>• Secure auth (JWT + HttpOnly + OAuth)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-4 flex-wrap">
+        <a href="https://tendercheck-frontend.onrender.com" target="_blank" rel="noopener noreferrer"
+          class="group flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all">
+          <ExternalLink size={18} />
+          Live Demo
+          <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+        </a>
+        <a href="https://github.com/elecodes/TenderCheck-AI" target="_blank" rel="noopener noreferrer"
+          class="flex items-center gap-2 border-2 border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 px-6 py-3 rounded-xl font-semibold transition-all">
+          <Github size={18} />
+          View Code
+        </a>
+      </div>
+    </div>
+
+    <!-- ProfeAI -->
+    <div class="card-hover p-8 md:p-12 rounded-2xl border border-indigo-500/30 mb-8 backdrop-blur-sm bg-gradient-to-br from-indigo-900/10 to-purple-900/10 shadow-2xl">
+      <div class="flex items-center gap-4 mb-6">
+        <div class="p-4 bg-indigo-500/20 rounded-xl">
+          <Brain className="text-cyan-400" size={36} />
+        </div>
+        <div>
+          <h3 class="text-3xl md:text-4xl font-bold text-white">ProfeAI</h3>
+          <p class="text-indigo-400 font-medium">AI Language Learning</p>
+        </div>
+      </div>
+
+      <!-- Project Screenshot -->
+      <div class="mb-8 rounded-xl overflow-hidden border border-indigo-500/30">
+        <a href="https://profeai.onrender.com" target="_blank" rel="noopener noreferrer" class="block group">
+          <div class="relative overflow-hidden">
+            <img 
+              src="/images/feature_study.png"
+              alt="ProfeAI Learning Interface"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <span class="text-white font-semibold text-lg flex items-center gap-2">
+                Try Live Demo <ExternalLink size={18} />
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+        AI-powered Spanish learning platform with real-time conversational tutoring, grammar correction, and neural voice synthesis.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-slate-900/50 p-6 rounded-lg border border-indigo-500/30">
+          <h4 class="text-lg font-semibold gradient-text mb-4">Key Features</h4>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>• Real-time AI roleplay & tutoring</li>
+            <li>• Grammar correction with feedback</li>
+            <li>• Neural voice synthesis</li>
+            <li>• Web research with Tavily</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-900/50 p-6 rounded-lg border border-blue-500/30">
+          <h4 class="text-lg font-semibold text-blue-400 mb-4">Tech Stack</h4>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>• LangChain + Genkit + OpenAI</li>
+            <li>• Docker containerization</li>
+            <li>• Helmet.js security</li>
+            <li>• Sentry monitoring</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-4 flex-wrap">
+        <a href="https://profeai.onrender.com" target="_blank" rel="noopener noreferrer"
+          class="group flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 transition-all">
+          <ExternalLink size={18} />
+          Live Demo
+          <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+        </a>
+        <a href="https://github.com/elecodes/ProfeAI" target="_blank" rel="noopener noreferrer"
+          class="flex items-center gap-2 border-2 border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 px-6 py-3 rounded-xl font-semibold transition-all">
+          <Github size={18} />
+          View Code
+        </a>
+      </div>
+    </div>
+
+    <!-- MoodTunes -->
+    <div class="card-hover p-8 md:p-12 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/10 to-cyan-900/10 shadow-2xl">
+      <div class="flex items-center gap-4 mb-6">
+        <div class="p-4 bg-purple-500/20 rounded-xl">
+          <MessageSquare className="text-purple-400" size={36} />
+        </div>
+        <div>
+          <h3 class="text-3xl md:text-4xl font-bold text-white">MoodTunes</h3>
+          <p class="text-purple-400 font-medium">AI Music Discovery</p>
+        </div>
+      </div>
+
+      <!-- Project Screenshot -->
+      <div class="mb-8 rounded-xl overflow-hidden border border-purple-500/30">
+        <a href="https://github.com/elecodes/MoodTunes" target="_blank" rel="noopener noreferrer" class="block group">
+          <div class="relative overflow-hidden">
+            <img 
+              src="/images/e2e-screenshots/search-results.png"
+              alt="MoodTunes Music Discovery Interface"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <span class="text-white font-semibold text-lg flex items-center gap-2">
+                View Project <Github size={18} />
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+        React music app with Voiceflow AI. Get personalized recommendations based on your mood.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-slate-900/50 p-6 rounded-lg border border-purple-500/30">
+          <h4 class="text-lg font-semibold text-purple-400 mb-4">Key Features</h4>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>• AI Mood Assistant (Voiceflow)</li>
+            <li>• Mood-based recommendations</li>
+            <li>• iTunes API autocomplete</li>
+            <li>• WCAG 2.1 AA accessible</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-900/50 p-6 rounded-lg border border-cyan-500/30">
+          <h4 class="text-lg font-semibold text-cyan-400 mb-4">Engineering</h4>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li>• 100/80/0 test coverage</li>
+            <li>• OWASP Top 10 security</li>
+            <li>• Code splitting optimization</li>
+            <li>• JWT + Helmet auth</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-4 flex-wrap">
+        <a href="https://github.com/elecodes/MoodTunes" target="_blank" rel="noopener noreferrer"
+          class="group flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 transition-all">
+          <Github size={18} />
+          View Project
+          <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

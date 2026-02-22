@@ -1,46 +1,120 @@
-# Astro Starter Kit: Basics
+# 🚀 Elena Menéndez - Portfolio
 
-```sh
-npm create astro@latest -- --template basics
+> Software Developer & AI Integrator
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/portfolio)
+
+## 🌟 About
+
+Personal portfolio showcasing AI-powered full-stack applications. Built with modern web technologies and best practices.
+
+**Live Site**: [elecodes.dev](https://elecodes.dev)
+
+## 🛠️ Built With
+
+- **[Astro](https://astro.build)** - Static Site Framework
+- **[React](https://react.dev)** - UI Components
+- **[Tailwind CSS](https://tailwindcss.com)** - Styling
+- **[Lucide React](https://lucide.dev)** - Icons
+- **TypeScript** - Type Safety
+
+## ✨ Features
+
+- 🎨 Modern, responsive design
+- 🌓 Smooth animations and transitions
+- 📱 Mobile-first approach
+- ⚡ Lightning-fast performance
+- 🎯 SEO optimized
+- ♿ Accessible (WCAG compliant)
+
+## 📂 Featured Projects
+
+### 1. TenderCheck AI
+Automated validation system for public tenders using AI-powered analysis.
+- **Tech**: TypeScript, React, Gemini, Turso, LangSmith
+- **Live**: [tendercheck-frontend.onrender.com](https://tendercheck-frontend.onrender.com)
+
+### 2. ProfeAI
+AI-powered Spanish learning platform with real-time tutoring.
+- **Tech**: LangChain, Genkit, OpenAI, ElevenLabs
+- **Live**: [profeai.onrender.com](https://profeai.onrender.com)
+
+### 3. MoodTunes
+AI music discovery with Voiceflow integration.
+- **Tech**: React, Voiceflow, iTunes API
+- **Repo**: [github.com/elecodes/MoodTunes](https://github.com/elecodes/MoodTunes)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or pnpm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Visit `http://localhost:4321`
 
-## 🚀 Project Structure
+### Build for Production
 
-Inside of your Astro project, you'll see the following folders and files:
+```bash
+npm run build
+npm run preview
+```
 
-```text
-/
+## 📁 Project Structure
+
+```
+portfolio/
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+│   └── images/           # Project screenshots
+├── src/
+│   ├── components/       # React/Astro components
+│   ├── layouts/          # Page layouts
+│   ├── pages/            # Route pages
+│   └── styles/           # Global styles
+├── astro.config.mjs      # Astro configuration
+└── tailwind.config.mjs   # Tailwind configuration
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🌐 Deployment
 
-## 🧞 Commands
+### Vercel (Recommended)
 
-All commands are run from the root of the project, from a terminal:
+```bash
+npm i -g vercel
+vercel
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Netlify
 
-## 👀 Want to learn more?
+```bash
+npm i -g netlify-cli
+netlify deploy --prod
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📝 License
+
+© 2025 Elena Menéndez. All rights reserved.
+
+## 📬 Contact
+
+- **Email**: elecodesdata@gmail.com
+- **LinkedIn**: [elena-menéndez-25233b4b](https://www.linkedin.com/in/elena-menéndez-25233b4b)
+- **GitHub**: [@elecodes](https://github.com/elecodes)
+
+---
+
+Built with ❤️ using Astro, React & Tailwind CSS
