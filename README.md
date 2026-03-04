@@ -12,11 +12,9 @@ Personal portfolio showcasing AI-powered full-stack applications. Built with mod
 
 ## 🛠️ Built With
 
-- **[Astro](https://astro.build)** - Static Site Framework
-- **[React](https://react.dev)** - UI Components
-- **[Tailwind CSS](https://tailwindcss.com)** - Styling
-- **[Lucide React](https://lucide.dev)** - Icons
-- **TypeScript** - Type Safety
+- **Languages & Frameworks**: TypeScript, JavaScript, Python, Node.js, React, Express, Astro, Tailwind CSS
+- **AI & LLMs**: Genkit, LangChain, OpenAI API, Tavily, Gemini, ElevenLabs, Voiceflow, LangSmith
+- **Backend & DevOps**: REST APIs, Docker, CI/CD, SQLite, Firebase, Git
 
 ## ✨ Features
 
