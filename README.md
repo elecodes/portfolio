@@ -2,7 +2,7 @@
 
 > Software Developer & AI Integrator
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/elecodes/portfolio)
 
 ## 🌟 About
 
@@ -55,7 +55,7 @@ AI music discovery with Voiceflow integration.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/portfolio.git
+git clone https://github.com/elecodes/portfolio.git
 cd portfolio
 
 # Install dependencies
