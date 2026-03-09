@@ -40,7 +40,13 @@ AI-powered Spanish learning platform with real-time tutoring.
 ### 3. MoodTunes
 AI music discovery with Voiceflow integration.
 - **Tech**: React, Voiceflow, iTunes API
+- **Live**: [mood-tunes-theta.vercel.app](https://mood-tunes-theta.vercel.app/)
 - **Repo**: [github.com/elecodes/MoodTunes](https://github.com/elecodes/MoodTunes)
+ 
+### 4. Tennis Academy
+Communication system for coaches and students (In Progress).
+- **Tech**: Python, WebSockets, REST API
+- **Repo**: [github.com/elecodes/tennis_academy](https://github.com/elecodes/tennis_academy)
 
 ## 🚀 Getting Started
 
