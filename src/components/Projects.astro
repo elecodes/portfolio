@@ -222,19 +222,8 @@ import { Code2, Brain, MessageSquare, ExternalLink, Github, ArrowRight, Wifi } f
       </div>
     </div>
 
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- Tennis Academy Communication System — IN PROGRESS -->
-    <!-- ═══════════════════════════════════════════ -->
-    <div class="card-hover p-8 md:p-12 rounded-2xl border border-emerald-500/40 backdrop-blur-sm bg-gradient-to-br from-emerald-900/10 to-teal-900/10 shadow-2xl relative overflow-hidden">
-
-      <!-- Animated "In Progress" badge -->
-      <div class="absolute top-6 right-6 flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/15 border border-emerald-400/40 text-emerald-400 text-sm font-semibold">
-        <span class="relative flex h-2.5 w-2.5">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
-        </span>
-        In Progress
-      </div>
+    <!-- Tennis Academy Communication System -->
+    <div class="card-hover p-8 md:p-12 rounded-2xl border border-emerald-500/30 mb-8 backdrop-blur-sm bg-gradient-to-br from-emerald-900/10 to-teal-900/10 shadow-2xl">
 
       <div class="flex items-center gap-4 mb-6">
         <div class="p-4 bg-emerald-500/20 rounded-xl">
@@ -273,10 +262,16 @@ import { Code2, Brain, MessageSquare, ExternalLink, Github, ArrowRight, Wifi } f
       </div>
 
       <div class="flex gap-4 flex-wrap">
+        <a href="https://tennis-academy-six.vercel.app/dashboard" target="_blank" rel="noopener noreferrer"
+          class="group flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 transition-all">
+          <ExternalLink size={18} />
+          Live Demo
+          <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+        </a>
         <a href="https://github.com/elecodes/tennis_academy" target="_blank" rel="noopener noreferrer"
-          class="flex items-center gap-2 border-2 border-emerald-400/50 text-emerald-400 hover:bg-emerald-400/10 px-6 py-3 rounded-xl font-semibold transition-all">
+          class="flex items-center gap-2 border-2 border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 px-6 py-3 rounded-xl font-semibold transition-all">
           <Github size={18} />
-          Follow Progress
+          View Code
         </a>
       </div>
     </div>
