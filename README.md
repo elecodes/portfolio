@@ -8,7 +8,7 @@
 
 Personal portfolio showcasing AI-powered full-stack applications. Built with modern web technologies and best practices.
 
-**Live Site**: [elecodes.dev](https://elecodes.dev)
+**Live Site**: [elecodes.online](https://elecodes.online)
 
 ## 🛠️ Built With
 
@@ -30,12 +30,12 @@ Personal portfolio showcasing AI-powered full-stack applications. Built with mod
 ### 1. TenderCheck AI
 Automated validation system for public tenders using AI-powered analysis.
 - **Tech**: TypeScript, React, Gemini, Turso, LangSmith
-- **Live**: [tendercheck-frontend.onrender.com](https://tendercheck-frontend.onrender.com)
+- **Live**: [tendercheckai.elecodes.online](https://tendercheckai.elecodes.online/)
 
 ### 2. ProfeAI
 AI-powered Spanish learning platform with real-time tutoring.
 - **Tech**: LangChain, Genkit, OpenAI, ElevenLabs
-- **Live**: [profeai.onrender.com](https://profeai.onrender.com)
+- **Live**: [profeai.elecodes.online](https://profeai.elecodes.online/)
 
 ### 3. MoodTunes
 AI music discovery with Voiceflow integration.
@@ -44,8 +44,9 @@ AI music discovery with Voiceflow integration.
 - **Repo**: [github.com/elecodes/MoodTunes](https://github.com/elecodes/MoodTunes)
  
 ### 4. Tennis Academy
-Communication system for coaches and students (In Progress).
+Real-time communication system for coaches and students.
 - **Tech**: Python, WebSockets, REST API
+- **Live**: [tennis-academy-six.vercel.app/dashboard](https://tennis-academy-six.vercel.app/dashboard)
 - **Repo**: [github.com/elecodes/tennis_academy](https://github.com/elecodes/tennis_academy)
 
 ## 🚀 Getting Started
