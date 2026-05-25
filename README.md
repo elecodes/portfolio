@@ -32,18 +32,23 @@ Automated validation system for public tenders using AI-powered analysis.
 - **Tech**: TypeScript, React, Gemini, Turso, LangSmith
 - **Live**: [tendercheckai.elecodes.online](https://tendercheckai.elecodes.online/)
 
-### 2. ProfeAI
+### 2. Mindfulness Para Todos
+Digital wellness and mindfulness learning platform focused on accessibility, automation, and scalable user experiences.
+- **Tech**: Full-stack collaboration, backend workflows, automation, AI-oriented features
+- **Live**: [mindfulnessalmeria.org](https://www.mindfulnessalmeria.org/)
+
+### 3. ProfeAI
 AI-powered Spanish learning platform with real-time tutoring.
 - **Tech**: LangChain, Genkit, OpenAI, ElevenLabs
 - **Live**: [profeai.elecodes.online](https://profeai.elecodes.online/)
 
-### 3. MoodTunes
+### 4. MoodTunes
 AI music discovery with Voiceflow integration.
 - **Tech**: React, Voiceflow, iTunes API
 - **Live**: [mood-tunes-theta.vercel.app](https://mood-tunes-theta.vercel.app/)
 - **Repo**: [github.com/elecodes/MoodTunes](https://github.com/elecodes/MoodTunes)
  
-### 4. Tennis Academy
+### 5. Tennis Academy
 Real-time communication system for coaches and students.
 - **Tech**: Python, WebSockets, REST API
 - **Live**: [tennis-academy-six.vercel.app/dashboard](https://tennis-academy-six.vercel.app/dashboard)
